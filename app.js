@@ -45,3 +45,8 @@ reset.addEventListener("click", () => {
     output_span.style.display = "none";
     user_number.value = 0;
 })
+
+
+    //  web page load, auto focus
+
+user_number.focus();  
