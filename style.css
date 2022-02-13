@@ -8,10 +8,11 @@
 body {
     /* background-image: url(snow.jpg); */
     background-color: rgb(252, 212, 199);
+
 }
 
 .header {
-    height: 6rem;
+    height: 12vh;
     background-color: rgb(53, 52, 52);
     color: rgb(252, 212, 199);
     display: flex;
@@ -23,9 +24,9 @@ body {
 main {
     /* background-color: aqua; */
     width: 50vw;
-    margin: 5rem auto;
-    height: 24rem;
-    padding: 5rem 0rem;
+    margin: 5vh auto 0vh auto;
+    height: 47vh;
+    padding: 11.5vh 0rem;
 
 }
 
@@ -34,12 +35,12 @@ main {
     width: 60%;
     margin: auto;
     border-radius: 12px;
-    height: 2.5rem;
+    height: 6vh;
     
 }
 main > h2 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 6vh;
     font-size: 1.7rem;
 }
 
@@ -74,7 +75,7 @@ main > h2 {
     background-color: rgb(53, 52, 52);
     color: rgb(252, 212, 199);
     cursor: pointer;
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 
 #reset {
@@ -86,7 +87,7 @@ main > h2 {
     background-color: rgb(53, 52, 52);
     color: rgb(252, 212, 199);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -95,7 +96,7 @@ main > h2 {
     width: 24rem;
     margin: auto;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 4vh;
     font-size: 1.4rem;
     font-weight: 600;
 }
@@ -104,7 +105,7 @@ main > h2 {
     width: 18rem;
     margin: auto;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 7vh;
     font-size: 1.5rem;
     font-weight: 600;
 }   
@@ -117,18 +118,19 @@ main > h2 {
 .reset-div {
     margin: auto;
     width: 8rem;
-    height: 2.5rem;
-    margin-top: 5rem;
+    height: 6vh;
+    margin-top: 10vh;
 }
 
 .footer {
     background-color: rgb(53, 52, 52);
     color: rgb(252, 212, 199);
-    height: 4.5rem;
+    height: 13vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 14px;
     letter-spacing: 0.03rem;
+    margin-bottom: 0vh;
 }
