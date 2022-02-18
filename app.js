@@ -73,7 +73,7 @@ submit.addEventListener("click", () => {
             attempts.innerHTML = `You Have The Right to try ${counter} Times`;
             attempted_array.push(user_number.value);
 
-        }   else {
+        }   else if (user_number.value > little_number) {
             little_number = user_number.value;
             info.innerHTML = `Enter a Number Between ${little_number} - ${big_number}`;
             attempts.innerHTML = `You Have The Right to try ${counter} Times`;
@@ -103,7 +103,7 @@ submit.addEventListener("click", () => {
         
         user_number.value = "";
         user_number.focus();
-        output_span.innerHTML = `( You have tried These Numbers:  ${attempted_array.join(", ")} )`;
+        output_span.innerHTML = `( You Have Tried These Numbers:  ${attempted_array.join(", ")} )`;
         output_span.style.display = "block";
         user_number.value = "";
         user_number.focus();
