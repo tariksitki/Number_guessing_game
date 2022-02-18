@@ -7,14 +7,14 @@
 
 body {
     /* background-image: url(snow.jpg); */
-    background-color: rgb(252, 212, 199);
+    background-color: #b2fcfc;
 
 }
 
 .header {
     height: 12vh;
     background-color: rgb(53, 52, 52);
-    color: rgb(252, 212, 199);
+    color: #b2fcfc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@ main > h2 {
     width: 5rem;
     /* border: 2px solid ; */
     background-color: rgb(53, 52, 52);
-    color: rgb(252, 212, 199);
+    color: #b2fcfc;
     cursor: pointer;
     font-size: 0.9rem;
 }
@@ -85,7 +85,7 @@ main > h2 {
     width: 100%;
     border: 2px solid ;
     background-color: rgb(53, 52, 52);
-    color: rgb(252, 212, 199);
+    color: #b2fcfc;
     cursor: pointer;
     font-size: 1rem;
 }
@@ -93,7 +93,7 @@ main > h2 {
 
 #output_span {
     display: none;
-    width: 24rem;
+    width: 40rem;
     margin: auto;
     text-align: center;
     margin-top: 4vh;
@@ -102,7 +102,7 @@ main > h2 {
 }
 
 #attempts {
-    width: 18rem;
+    width: 25rem;
     margin: auto;
     text-align: center;
     margin-top: 7vh;
@@ -124,7 +124,7 @@ main > h2 {
 
 .footer {
     background-color: rgb(53, 52, 52);
-    color: rgb(252, 212, 199);
+    color: #b2fcfc;
     height: 13vh;
     display: flex;
     flex-direction: column;
